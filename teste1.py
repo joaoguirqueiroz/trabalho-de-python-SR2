@@ -8,9 +8,9 @@ def limpar_tela():
 
 def adicionar_evento():
    limpar_tela()
-print("=" * 30)
+print("#" * 30)
 print(" " * 5, "ADICIONAR EVENTO")
-print("=" * 30)
+print("#" * 30)
 
 titulo = input("Digite o título do evento: ")
 tipo = input("Digite o tipo do evento (Palestra, Workshop, etc.): ")
