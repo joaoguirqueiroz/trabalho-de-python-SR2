@@ -4,20 +4,20 @@ def menu_principal():
     while True:
         limpar_tela()
 
-        print("=" * 50)
+        print("#" * 50)
         print("ORGANIZA FESTA".center(50))
-        print("=" * 50)
+        print("#" * 50)
 
-        print("[1] Adicionar evento")
-        print("[2] Visualizar eventos")
-        print("[3] Editar evento")
-        print("[4] Excluir evento")
-        print("[5] Relatório financeiro")
-        print("[6] Adicionar compra")
-        print("[7] Sugestão de evento")
-        print("[0] Sair")
+        print("[1] - Adicionar evento")
+        print("[2] - Visualizar eventos")
+        print("[3]- Editar evento")
+        print("[4] - Excluir evento")
+        print("[5] - Relatório financeiro")
+        print("[6] - Adicionar compra")
+        print("[7] - Sugestão de evento")
+        print("[0] - Sair")
 
-        print("=" * 50)
+        print("#" * 50)
 
         opcao = input("Escolha uma opção: ").strip()
 
