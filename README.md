@@ -39,3 +39,10 @@ Também é possível registrar compras relacionadas ao evento. Quando uma compra
 
 ```bash
 python main.py
+
+
+## FEITO POR:
+JOÃO GUILHERME
+PETRUS VIEIRA
+PEDRO MITTELBACH
+GABRIEL SOBRINHO LIMA
