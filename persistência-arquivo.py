@@ -12,6 +12,6 @@ def salvar_arquivo(assunto):
 
 def separar_eventos():
     assunto= ler_arquivo()
-    if conteudo.strip() == "":
+    if assunto.strip() == "":
         return []
-    return conteudo.split("\n\n")
+    return assunto.split("\n\n")
