@@ -6,12 +6,12 @@ def ler_arquivo():
     with open(ARQUIVO_EVENTOS, "r", encoding="utf-8") as arquivo:
         return arquivo.read()
 
-def salvar_arquivo(conteudo):
+def salvar_arquivo(assunto):
     with open(ARQUIVO_EVENTOS, "w", encoding="utf-8") as arquivo:
         arquivo.write(conteudo)
 
 def separar_eventos():
-    conteudo = ler_arquivo()
+    assunto= ler_arquivo()
     if conteudo.strip() == "":
         return []
     return conteudo.split("\n\n")
