@@ -11,12 +11,12 @@ def mostrar_titulo(titulo):
 
 def validar_data():
     while True:
-        data = input("Digite a data do evento (DD/MM/AAAA): ").strip()
+        data = input("Digite a data do evento {00/00/0000}: ").strip()
         try:
             datetime.strptime(data, "%d/%m/%Y")
             return data
         except ValueError:
-            print("Data inválida! Use DD/MM/AAAA.")
+            print("Data inválida! Use {00/00/0000}")
 
 def calcular_dias_restantes(data_evento):
     try:
