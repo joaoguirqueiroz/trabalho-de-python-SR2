@@ -5,9 +5,9 @@ def pausar():
     input("\nPressione ENTER para continuar...")
 
 def mostrar_titulo(titulo):
-    print("=" * 50)
+    print("#" * 50)
     print(titulo.center(50))
-    print("=" * 50)
+    print("#" * 50)
 
 def validar_data():
     while True:
