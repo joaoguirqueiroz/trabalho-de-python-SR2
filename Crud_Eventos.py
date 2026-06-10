@@ -84,3 +84,4 @@ def excluir_evento():
         print("\nEvento excluído com sucesso!")
     else:
         print("\nEvento não encontrado.")
+        
